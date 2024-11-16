@@ -11,6 +11,7 @@ import org.openqa.selenium.interactions.Actions;
 public class ToLearnClickHold {
 
 	public static void main(String[] args) throws InterruptedException {
+		//class is modified in github
     WebDriver driver = new ChromeDriver();
     driver.manage().window().maximize();
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
